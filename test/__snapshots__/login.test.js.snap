@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  class="hero is-fullheight"
+>
+  <div
+    class="columns"
+  >
+    <div
+      class="column is-4 banner"
+    >
+      <h1
+        class="is-size-1 has-text-centered"
+      >
+        Login
+      </h1>
+       
+      <p
+        class="content has-text-centered is-size-5 is-hidden-mobile"
+      >
+        
+        Welcome back to Julius 👋
+      </p>
+    </div>
+     
+    <div
+      class="column form"
+    >
+      <label
+        class="label"
+      >
+        Your Credentials:
+      </label>
+       
+      <div
+        class="field"
+      >
+        <div
+          class="control"
+        >
+          <input
+            class="input"
+            placeholder="Username/Email "
+            type="text"
+          />
+        </div>
+      </div>
+       
+      <div
+        class="field"
+      >
+        <div
+          class="control"
+        >
+          <input
+            class="input"
+            placeholder="Password"
+            type="password"
+          />
+        </div>
+      </div>
+       
+      <div
+        class="field is-grouped"
+      >
+        <div
+          class="control"
+        >
+          <button
+            class="button is-link is-light is-rounded"
+          >
+            Login
+            →
+          </button>
+        </div>
+         
+        <div
+          class="control"
+        >
+          <nuxt-link
+            class="button is-danger is-light is-rounded"
+            to="/"
+          >
+            
+            Cancel
+          
+          </nuxt-link>
+        </div>
+         
+        <div
+          class="control float-right"
+        >
+          <nuxt-link
+            class="button is-light is-warning is-outlined is-rounded"
+            to="/auth/reset"
+          >
+            Forgot Password?
+          </nuxt-link>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <modal
+    classes="modal is-active"
+    name="error"
+  >
+    <div
+      class="modal-background"
+    />
+     
+    <div
+      class="modal-content"
+    >
+      <div
+        class="section"
+      >
+        <h3
+          class="title has-text-white"
+        >
+          Oh no!
+        </h3>
+         
+        <p
+          class="subtitle is-size-4 has-text-white"
+        >
+          
+        </p>
+         
+        <div
+          class="buttons"
+        >
+          <button
+            class="button is-danger is-rounded"
+          >
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </modal>
+</div>
+`;
