@@ -1,4 +1,4 @@
-# julius
+# ELEXTIVE!!
 
 > An online Elective Management System
 
